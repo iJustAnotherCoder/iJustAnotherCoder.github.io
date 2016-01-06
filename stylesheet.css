@@ -1,0 +1,13 @@
+img{
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+
+.footer{ 
+ text-align: center;
+ bottom: 0px; 
+ width: 100%;
+    
+}  
