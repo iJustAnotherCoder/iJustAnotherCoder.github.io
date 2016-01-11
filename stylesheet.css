@@ -3,6 +3,7 @@ img{
     width: auto; 
     max-width: 300px; 
     max-height: 300px;
+    
 }
 
 .footer{ 
@@ -11,3 +12,38 @@ img{
  width: 100%;
     
 }  
+
+.tab1{
+    text-align:center;
+}
+.tab2 {
+   text-align:center;
+}
+
+body {
+    color: white;
+}
+
+.footertext{
+    text-align:Center;
+}
+
+/* unvisited link */
+a:link {
+    color: White;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: lightblue;
+}
