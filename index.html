@@ -27,13 +27,15 @@
   <p></p>
   </div>
 </div>  
-  <script type="text/javascript">
+  
+  <!-- Color Change for the name-->
+<script type="text/javascript">
   var r = 0;
   var g = 0;
   var dir = +1;
   function Fade() {
     
-    $("h1") .css("color", "rgb("+ r  +"," +  g +",255)" );
+    $("h1") .css("color", "rgb(255,"+ r  +"," +  g +")" );
     
     r = r + dir * 10;
     g = g + dir * 10;
