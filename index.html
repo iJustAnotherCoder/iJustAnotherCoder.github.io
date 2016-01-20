@@ -9,7 +9,7 @@
 
 
   <body>
-<img class="displayed" src="https://pbs.twimg.com/profile_images/683357876254019584/uqJIYY5V.jpg" class="img-circle">
+<img src="https://pbs.twimg.com/profile_images/683357876254019584/uqJIYY5V.jpg" class="img-circle img-responsive" alt="Responsive image">
 <h1><i>Leandro Rodriguez</i></h1>
 <div class="row">
   <div class="tab1">
@@ -28,8 +28,26 @@
   </div>
 </div>  
   <script type="text/javascript">
-    window.setInterval(function, milliseconds);
+  var r = 0;
+  var g = 0;
+  var dir = +1;
+  function Fade() {
+    
+    $("h1") .css("color", "rgb("+ r  +"," +  g +",255)" );
+    
+    r = r + dir * 10;
+    g = g + dir * 10;
+    if (r > 255) {
+      dir = -1;
+    }
+    if (r < 0) {
+      dir = +1;
+    }
+      
+  }
+    window.setInterval(Fade, 100);
   </script>
+  
   
   
   

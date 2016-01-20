@@ -1,4 +1,4 @@
-img.displayed {
+img{
     display: block;
     margin-left: auto;
     margin-right: auto 
@@ -37,25 +37,6 @@ body {
     text-align:Center;
 }
 
-/* unvisited link */
-a:link {
-    color: White;
-}
-
-/* visited link */
-a:visited {
-    color: blue;
-}
-
-/* mouse over link */
-a:hover {
-    color: red;
-}
-
-/* selected link */
-a:active {
-    color: lightblue;
-}
 
 H1  {
   color: blue;
